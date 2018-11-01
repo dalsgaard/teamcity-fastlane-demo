@@ -20,6 +20,5 @@ platform :ios do
   lane :custom_lane do
     `mkdir ../build`
     `mv ../src/source.yml ../build/artifact.yml`
-    puts 'Hurray!'
   end
 end
