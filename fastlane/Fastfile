@@ -19,7 +19,7 @@ platform :ios do
   desc "Description of what the lane does"
   lane :custom_lane do
     `mkdir ../build`
-    `touch ../build/artifact.yml`
+    `mv ../src/source.yml ../build/artifact.yml`
     puts 'Hurray!'
   end
 end
